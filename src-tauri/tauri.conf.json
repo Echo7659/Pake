@@ -1,12 +1,12 @@
 {
   "package": {
-    "productName": "WeRead",
+    "productName": "EchoNote",
     "version": "1.0.0"
   },
   "tauri": {
     "windows": [
       {
-        "url": "https://weread.qq.com/",
+        "url": "http://note.echol.cn/",
         "transparent": true,
         "fullscreen": false,
         "width": 1200,
@@ -22,6 +22,12 @@
     }
   },
   "build": {
+    "icon": [
+      "icons/logo.icns",
+      "png/app_32.ico",
+      "png/app_256.ico",
+      "png/app_512.png"
+            ],
     "devPath": "../dist",
     "distDir": "../dist",
     "beforeBuildCommand": "",
